@@ -1,0 +1,23 @@
+.QR_container{
+  width: 150px;
+  color: #3588a5;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.details_name{
+  color: #3588a5;
+}
+.details_inputs{
+  color:#929292;
+}
+.inputs_container{
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-weight: 600;
+
+}
+.flex {
+  display: flex;
+}

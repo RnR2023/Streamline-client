@@ -1,0 +1,97 @@
+
+.stream_line_logo {
+  position: absolute;
+  min-width: 30vw;
+  min-height: 30vw;
+  left: 10vw;
+  top: 5vw
+
+}
+
+.stream_line_logo_blue {
+  max-width: 40vw;
+  max-height: 40vw;
+  position:  absolute;
+  top: 30px;
+  left: 30vw;
+  display: none;
+}
+.input_containers {
+  background-color:#006e8c;
+  position: relative;
+  width: 50vw !important;
+}
+.text_header {
+  color: #006e8c !important;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.btn_login {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #006e8c !important;
+  padding: 5px 20px !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: 0px 1px 3px 0px black !important
+
+}
+.input_home{
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid black !important;
+}
+.input_home:focus {
+  box-shadow: none !important;
+}
+.col_inputs {
+  margin-top: 200px !important;
+  margin: 0 auto;
+}
+.welcome{
+  color: black !important;
+}
+.stream_line_container {
+  margin: 0 auto;
+}
+.row_height {
+  height: 80vh;
+
+}
+.ct {
+  display:  flex;
+  flex-direction: row;
+  height: 99vh !important;
+
+}
+.cursor {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.show-password {
+  visibility: hidden;
+  background-color: transparent !important;
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+.ct {
+  flex-direction: column;
+  max-width: 70vw;
+  margin: 0 auto
+}
+.stream_line_logo_blue { display: block;}
+.input_containers {
+}
+
+.error_message {
+  color: red;
+}
+.show-password {
+  visibility: visible;
+}
+}

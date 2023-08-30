@@ -1,0 +1,14 @@
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-wrapper {
+    flex: 0 0 auto;
+}
+
+.icon {
+    cursor: pointer;
+    margin: 0 5px;
+    
+}

@@ -1,0 +1,45 @@
+.select {
+    max-width: 500px;
+    margin-left: 10px;
+}
+.date_containers {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.overview_menu {
+  margin: 0 auto;
+  background-color: #c6cbcd;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.overview_menu div {
+  color: white;
+  font-weight: 500;
+  margin-right: 20px;
+  padding: 10px 5px;
+  border-left: 3px solid white;
+  text-align: center;
+}
+.overview_menu div:hover {
+  color: black !important;
+  transition: color 1s;
+}
+.graph_item {
+  width: 50% 
+  }
+  
+
+  
+  .ct_graphs > div {
+    flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    margin-bottom: 10px;
+  }
+
+.date_containers div {
+margin: 10px
+}

@@ -1,0 +1,31 @@
+.flex_column_samples {
+ display: flex;
+ flex-direction: column;
+}
+.table_header {
+    background-color: gray
+}
+.tr {
+    margin: 0 auto;
+    text-align: center;
+}
+.flex_row_samples {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto
+}
+.flex_row_samples div {
+    padding: 5px 10px;
+    width: 200px;
+    border: 1px solid #747171;
+    border-radius: 4px;
+    text-align: center;
+}
+.table_margin {
+    margin-top: 50px;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}

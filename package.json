@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
+    "@mui/styles": "^5.12.3",
+    "@mui/x-data-grid": "^6.3.0",
+    "@mui/x-date-pickers": "^6.3.0",
+    "@mui/x-date-pickers-pro": "^6.3.0",
+    "@nivo/bar": "^0.83.0",
+    "@nivo/core": "^0.83.0",
+    "@react-google-maps/api": "^2.18.1",
+    "@react-spring/web": "^9.7.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv-formats": "^2.1.1",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "dayjs": "^1.11.8",
+    "firebase": "^9.22.0",
+    "google-map-react": "^2.2.1",
+    "js-file-download": "^0.4.12",
+    "js-guid": "^1.0.0",
+    "mdb-react-ui-kit": "^6.0.0",
+    "moment": "^2.29.4",
+    "multiselect-react-dropdown": "^2.0.25",
+    "nivo": "^0.31.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-calendar": "^4.2.1",
+    "react-dates": "^21.8.0",
+    "react-dom": "^18.2.0",
+    "react-google-charts": "^4.0.0",
+    "react-icons": "^4.7.1",
+    "react-pro-sidebar": "^1.0.0",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "^2.1.3",
+    "recharts": "^2.6.0",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6"
+  }
+}

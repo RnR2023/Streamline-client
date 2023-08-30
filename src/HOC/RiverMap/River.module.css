@@ -1,0 +1,7 @@
+.filter_wrraper {
+    display: flex;
+}
+
+filter_wrraper>* {
+    flex: 1;
+}

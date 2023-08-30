@@ -1,0 +1,46 @@
+.plus_circle_container {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: space-between;
+  color: #3588a5;
+  margin: 0 auto;
+  font-weight: bold;
+  cursor: pointer;
+}
+.stream_line_logo {
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: 200px;
+  margin: 0 auto
+}
+
+.stream_line_container {
+  margin: 0 auto;
+}
+.x {
+  margin-left: 25%;
+}
+
+.inputs {
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+}
+.input_container input {
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.save_button {
+background-color: #3588a5;
+color: white;
+border: none;
+width: 100px;
+padding: 5px;
+
+}
+.btn_container {
+  margin: 0 auto;
+  text-align: center;
+}

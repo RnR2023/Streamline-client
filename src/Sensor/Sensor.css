@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.word-bx{
+    font-size: 36px;
+    font-weight: 100;
+    color: #eee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.word-bx span{
+    background:#000;
+    padding: 5px 10px;
+}
+
+.word-bx div {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    height: 65px;
+}
+
+.word-bx li {
+    color: black;
+    font-weight: 700;
+    height: 45px;
+    margin-bottom: 45px;
+    margin-left: 100px;
+    display: block;
+}
+
+.word-bx .words { 
+    animation: words 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; 
+}
+
+@keyframes words {
+    0% {
+         margin-top: -360px; 
+        }
+    5% {
+         margin-top: -270px; 
+        }
+    25% {
+         margin-top: -270px; 
+        }
+    30% {
+         margin-top: -180px; 
+        }
+    50% {
+         margin-top: -180px; 
+        }
+    55% {
+         margin-top: -90px; 
+        }
+    75% {
+         margin-top: -90px; 
+        }
+    80% {
+         margin-top: 0px; 
+        }
+    99.99% {
+         margin-top: 0px; 
+        }
+    100% {
+         margin-top: -270px; 
+        }
+}
+

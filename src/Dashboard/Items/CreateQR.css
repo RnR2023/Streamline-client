@@ -1,0 +1,22 @@
+.qr_creation_container {
+    margin: 20px !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.qr_container {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.card_cont {
+    margin: 0 auto;
+}
+
+@media print {
+    .page {
+        page-break-after: always;
+    }
+}

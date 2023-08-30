@@ -1,0 +1,76 @@
+div {
+    margin-bottom: 10px;
+}
+
+.homepage_wrraper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../images/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    width: calc(100vw - 300px);
+    height: 100%;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 500px;
+    height: 500px;
+}
+
+.text {
+    color: #004e63;
+    font-size: xx-large ;
+    font-weight: bold;
+}
+  
+.text {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #004e63, #fff, #004e63);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+
+.rounded_button {
+    display: inline-block;
+    padding: 20px 60px;
+    border-radius: 25px;
+    background-color: #004e63;
+    color: white;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+  }
+
+  .row {
+     --bs-gutter-x: 0rem !important;
+  }

@@ -1,0 +1,12 @@
+.QR_container{
+  width: 150px;
+  color: #3588a5;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.details_name{
+  color: #3588a5;
+}
+.details_inputs{
+  color:#929292;
+}
